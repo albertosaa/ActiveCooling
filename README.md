@@ -23,23 +23,23 @@ simple 3D-printed pieces are employed in our design. We built and have
 been continuously using this cooling system for a GPU NVIDIA Tesla V100
 and an FPGA Xilinx Alveo U280, both mounted
 in   common PCIe motherboards (ASUS PRIME Intel H510M-E), installed in a
-standard rack-mounted computer case, and operating in an air-conditioned datacenter. The setup is inexpensive and has proved
+standard rack-mounted computer case  and operating in an air-conditioned datacenter. The setup is inexpensive and has proved
 to be flexible and extremely reliable. Furthermore, it can be easily
 adapted for any other card or element requiring similar cooling.
 
 For the rationale and overall description of the project, see the accompanying
-[paper](documentation/cooling-paper.pdf). For the full build instructions, see the [hardware
+[paper](cooling-paper.pdf). For the full build instructions, see the [hardware
 details](hardware/). For the Arduino programming and electronics, see the
 [controller details](ArduinoController/).
 
 ### License 
 
 The hardware presented here is freely available under a
-[CERN-OHL-S-2.0](https://spdx.org/licenses/CERN-OHL-S-2.0.html) license, which can be also found [here]{.ul}.
+[CERN-OHL-S-2.0](https://spdx.org/licenses/CERN-OHL-S-2.0.html) license, which can be also found [here](HWLICENSE.md).
 
 The software and documentation are freely available under an [MIT
 license](https://opensource.org/licenses/MIT), which can be also found 
-[here]{.ul}.
+[here](LICENSE).
 
 ### Contact 
 
