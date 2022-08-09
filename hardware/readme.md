@@ -14,14 +14,19 @@ rack-mounting PC case.
 
 <p align="center">
 <img src="../img/nilko.jpg" alt="Computer case" width="50%" /> 
+<br>
+Fig.1 Nilko NK211 PC case (empty) used in this build.
 </p>
+
 <p align="center">
-Fig.1 Nilko NK211 PC case (empty) used in this build
+<img src="../img/nilko2.jpg" alt="Computer case" width="50%" />  <br>
+Fig.2 Nilko NK211 case with an nVidia Tesla V100 GPU  and all PC components installed. <br> Notice
+the 60x60mm cooling fan mounting position (in front of the GPU card).
 </p>
 
 
 
-2. List
+2. Attach a cardboard sheet to the fan mounting bracket. Draw the fan opening and mounting holes. Use a long and straight pen to draw reference marks for the upper and side limits of the high performance card’s air intake. Remove the cardboard and complete the card’s intake outline.
 
 
 
