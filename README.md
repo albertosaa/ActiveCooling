@@ -78,11 +78,11 @@ The work of A. Saa is supported by CNPq (grant 302674/2018-7) and FAPESP
 </tr>
 <tr>
 <td>url</td>
-<td><code itemprop="url">https://github.com/RodLophus/ArduinoFanController/</code></td>
+<td><code itemprop="url">https://github.com/albertosaa/ActiveCooling</code></td>
 </tr>
 <tr>
 <td>sameAs</td>
-<td><code itemprop="sameAs">https://github.com/RodLophus/ArduinoFanController/</code></td>
+<td><code itemprop="sameAs">https://github.com/albertosaa/ActiveCooling</code></td>
 </tr>
 <tr>
 <td>citation</td>
