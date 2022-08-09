@@ -154,3 +154,12 @@ on the Arduino-based fan controller using the settings shown below:
 <p align="center">
 <img src="../img/arduinocontrol.png" alt="Computer case" width="50%" /> 
 <br>
+
+8. With this setup we saw a maximum GPU temperature of 67°C for a power draw of about 230W (as
+reported by nVidia’s “nvidia-smi” utility) when running gpu-burn for 15 minutes. The ambient
+temperature was 23°C.
+  
+<p align="center">
+<img src="../img/burn.png" alt="Computer case" width="50%" /> 
+<br>
+  
