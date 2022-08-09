@@ -30,7 +30,7 @@ adapted for any other card or element requiring similar cooling.
 For the rationale and overall description of the project, see the accompanying
 [paper](cooling-paper.pdf). For the full build instructions, see the [hardware
 details](hardware/). For the Arduino programming and electronics, see the
-[controller details](ArduinoController/).
+[controller details](https://github.com/RodLophus/ArduinoFanController).
 
 ### License 
 
