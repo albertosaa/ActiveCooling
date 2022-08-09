@@ -130,6 +130,11 @@ is in place (along the duct’s side). Use a long screwdriver to set the cable i
 5. Secure all cables and wires inside the PC case using cable ties or other cable management system.
 Make sure no cable is in the way of the air flow neither can came in contact with the fan blades.
 
+<p align="center">
+<img src="../img/tesla.jpg" alt="Computer case" width="25%" /> 
+<img src="../img/xl.jpg" alt="Computer case" width="25%" /> 
+<br>
+
 6. Install the fan controller and connect the high performance card’s fan to one of its temperature-
 controlled PWM outputs. Install the controller’s temperature sensor on the back of the case, in the
 board’s hot air outlet. Extend the sensor’s wires if needed.
