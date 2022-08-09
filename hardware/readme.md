@@ -26,7 +26,7 @@ the 60x60mm cooling fan mounting position (in front of the GPU card).
 
 
 
-2. With the help of a cardboard sheet, draw the fan opening, mounting holes, and the reference marks for the 
+2. With the help of a cardboard sheet, for instance, draw the fan opening, mounting holes, and the reference marks for the 
 card’s air intake, see below.
 
 <p align="center">
@@ -37,5 +37,16 @@ Fig.3 Drawing guide lines (left) and full contour (right) of the GPU air intake 
 template
 </p>
 
+3. Mark the center of each one of the duct openings and measure the vertical and horizontal distances
+between them. Such distances will be very important to align the openings when making the 3D model, as
+most 3D modeling softwares (we used Autodesk Fusion 360) have center-referenced primitives
+(rectangles and circles).
+
+<p align="center">
+<img src="../img/draw3.jpg" alt="Computer case" width="25%" /> 
+<br>
+Fig.4 Cleaned-up outlines of the air duct intake (red) and outlet (blue) <br> and center-to-center
+measurements (“x” and “y”).
+</p>
 
 
