@@ -61,3 +61,11 @@ body between the two ends (we used the “loft” tool on Autodesk Fusion 360. A
 with solid object, we used it twice: for the outer and inner duct shells and subtracted the resulting
 objects to obtain an hollow body).
 
+<p align="center">
+<img src="../img/3DP.jpg" alt="Computer case" width="25%" /> 
+<img src="../img/3DP2.jpg" alt="Computer case" width="25%" /> 
+<br>
+Fig.5 Model the ends of the air duct (left) and use the 3D modeling software tools to automatically
+generate the complex structure connecting them (right).
+</p>
+
