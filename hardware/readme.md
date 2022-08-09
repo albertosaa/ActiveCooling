@@ -62,10 +62,34 @@ with solid object, we used it twice: for the outer and inner duct shells and sub
 objects to obtain an hollow body).
 
 <p align="center">
-<img src="../img/3DP.jpg" alt="Computer case" width="25%" /> 
-<img src="../img/3DP2.jpg" alt="Computer case" width="25%" /> 
+<img src="../img/3DP.png" alt="Computer case" width="25%" /> 
+<img src="../img/3DP2.png" alt="Computer case" width="25%" /> 
 <br>
-Fig.5 Model the ends of the air duct (left) and use the 3D modeling software tools to automatically
+Fig.5 Model the ends of the air duct (left) and use the 3D modeling software tools <br> to automatically
 generate the complex structure connecting them (right).
 </p>
 
+5. Make a test-fit part of the complete air duct using a 3D printer. You can use regular PLA and low
+filling (about 10%) for this test. Mount the test-fit part on the PC case and measure the gap between
+the duct and the CPU (of FPGA) card. Modify the 3D model in order to make this gap 4mm wide
+and uniform on all sides.
+
+<p align="center">
+<img src="../img/nvidiatest.jpg" alt="Computer case" width="50%" />  <br>
+Fig.6 Test-fit piece mounted on the PC case. Notice the wide and irregular gap between the duct
+and the nVidia GPU card’s air intake.
+</p>
+
+6. Make the final air duct using the 3D printer. Use an higher filling rate (we used 80%) to prevent
+the supporting flange from being crushed when the mounting screws get tightened up. Use High
+Temperature PLA (also called “Premium PLA”) or similar material, as most regular PLAs soften and
+get deformed at temperatures as low as 50°C.
+
+<p align="center">
+<img src="../img/duct1.jpg" alt="Computer case" width="25%" /> 
+<img src="../img/duct1.jpg" alt="Computer case" width="25%" /> 
+<br>
+Fig.7 Final measurements for the air ducts for the nVidia Tesla V100 GPU (left) and Xilinx Alveo
+U280 FPGA cards (right). The mounting flange (bottom) is particular for the PC case we used. The
+air outlet profile (top) can be used in any design made for these cards.
+</p>
