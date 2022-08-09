@@ -105,7 +105,7 @@ to seal the gap between the duct and the high performance board.
 Fig.8 Final air duct with rubber foam applied.
 </p>
 
-Install the cooling fan and the air duct on the PC case’s mounting bracket. If possible, remove the
+2. Install the cooling fan and the air duct on the PC case’s mounting bracket. If possible, remove the
 fan bracket and detach the GPU (or FPGA) board power cable from the power supply to make the
 assembly easier. Use M4x12mm bolts with narrow (allen) heads to fit on the mounting holes along
 the fan’s body. Use nuts and lock washers to prevent the fan vibration from losing the bolts.
@@ -117,3 +117,24 @@ Fig.7 Final measurements for the air ducts for the nVidia Tesla V100 GPU (left) 
 U280 FPGA cards (right). The mounting flange (bottom) is particular for the PC case we used. The
 air outlet profile (top) can be used in any design made for these cards.
 </p>
+
+3. Install the cooling assembly in the computer case. Connect the power supply cable on the high
+performance card and insert its air intake into the air duct outlet. Place paper sheets between the
+card’s body and the air duct outlet to prevent the rubber foam from being dragged inside when the
+card is inserted. Insert the card carefully until the cooling assembly can be secured into its designed
+position. Mount the cooling assembly to the PC case and remove the paper sheets.
+
+4. Look into the air duct through the fan and check if the power cable for the high performance card
+is in place (along the duct’s side). Use a long screwdriver to set the cable in place if needed.
+
+5. Secure all cables and wires inside the PC case using cable ties or other cable management system.
+Make sure no cable is in the way of the air flow neither can came in contact with the fan blades.
+
+6. Install the fan controller and connect the high performance card’s fan to one of its temperature-
+controlled PWM outputs. Install the controller’s temperature sensor on the back of the case, in the
+board’s hot air outlet. Extend the sensor’s wires if needed.
+
+<p align="center">
+<img src="../img/ass4.jpg" alt="Computer case" width="25%" /> 
+<img src="../img/ass5.jpg" alt="Computer case" width="25%" /> 
+<br>
