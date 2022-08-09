@@ -93,3 +93,14 @@ Fig.7 Final measurements for the air ducts for the nVidia Tesla V100 GPU (left) 
 U280 FPGA cards (right). The mounting flange (bottom) is particular for the PC case we used. The
 air outlet profile (top) can be used in any design made for these cards.
 </p>
+
+## Assembly Instructions
+
+1. Apply adhesive rubber foam (6mm high by 10mm wide) on the internal wall of the air duct outlet
+to seal the gap between the duct and the high performance board.
+
+<p align="center">
+<img src="../img/ass1.jpg" alt="Computer case" width="50%" /> 
+<br>
+Fig.8 Final air duct with rubber foam applied.
+</p>
