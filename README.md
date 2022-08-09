@@ -22,7 +22,7 @@ installation in common computer cases. Only standard components and
 simple 3D-printed pieces are employed in our design. We built and have
 been continuously using this cooling system for a GPU NVIDIA Tesla V100
 and an FPGA Xilinx Alveo U280, both mounted
-in   common PCIe motherboards ASUS PRIME Intel H510M-E, installed in a
+in   common PCIe motherboards (ASUS PRIME Intel H510M-E), installed in a
 standard rack-mounted computer case, and operating in an air-conditioned datacenter. The setup is inexpensive and has proved
 to be flexible and extremely reliable. Furthermore, it can be easily
 adapted for any other card or element requiring similar cooling.
@@ -30,7 +30,7 @@ adapted for any other card or element requiring similar cooling.
 For the rationale and overall description of the project, see the accompanying
 [paper](documentation/cooling-paper.pdf). For the full build instructions, see the [hardware
 details](hardware/). For the Arduino programming and electronics, see the
-[controller details]{.ul}.
+[controller details](ArduinoController/).
 
 ### License 
 
@@ -61,8 +61,6 @@ The work of A. Saa is supported by CNPq (grant 302674/2018-7) and FAPESP
 
 ### Dataset Metadata 
 
-The following table is necessary for this dataset to be indexed by search
-engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
 <div itemscope itemtype="http://schema.org/Dataset">
 <table>
 <tr>
