@@ -50,3 +50,14 @@ measurements (“x” and “y”).
 </p>
 
 
+4. Use a 3D modeling software to draw a 4mm thick mounting flange for the air duct inlet (similar to
+the mounting structure of the fan itself). Draw an hollow frame corresponding to the GPU (or
+FPGA) card’s air intake outline on the same diagram, at a plane offset from the origin by the distance
+between the fan mounting position and the card’s air intake (when installed on the PC case). Make
+this frame 15mm high, 2.5mm thick and oversized in such a way that allow a gap of at least 5mm
+between the frame (which will become the duct’s air exit) and the board’s air intake. Refer to the
+measurements token on the previous steps to align the two drawings. If possible, use the automatic composing features of the 3D modeling software to draw the air duct’s
+body between the two ends (we used the “loft” tool on Autodesk Fusion 360. As this tool deals only
+with solid object, we used it twice: for the outer and inner duct shells and subtracted the resulting
+objects to obtain an hollow body).
+
