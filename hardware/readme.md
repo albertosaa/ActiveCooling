@@ -143,3 +143,14 @@ board’s hot air outlet. Extend the sensor’s wires if needed.
 <img src="../img/ass4.jpg" alt="Computer case" width="25%" /> 
 <img src="../img/ass5.jpg" alt="Computer case" width="25%" /> 
 <br>
+  
+7. Use some burn-in test program to stress the high performance card (for example, gpu-burn for the
+nVidia Tesla: https://github.com/wilicc/gpu-burn). Configure the temperature controller to ensure
+the board works within thermal specifications even with maximum power dissipation. We have set
+the fan power (PWM duty cycle) at 40% and 100%, respectively for temperatures below 40°C and
+above 55°C (for the intermediate temperatures, the fan power is linearly increased). This was done
+on the Arduino-based fan controller using the settings shown below:
+  
+<p align="center">
+<img src="../img/arduinocontrol.png" alt="Computer case" width="50%" /> 
+<br>
