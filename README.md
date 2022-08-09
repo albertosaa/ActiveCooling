@@ -28,8 +28,8 @@ to be flexible and extremely reliable. Furthermore, it can be easily
 adapted for any other card or element requiring similar cooling.
 
 For the rationale and overall description of the project, see the accompanying
-[paper]{.ul}. For the full build instructions, see the [hardware
-details](https://github.com/albertosaa/ActiveCooling/hardware/). For the Arduino programming and electronics, see the
+[paper](documentation/cooling-paper.pdf). For the full build instructions, see the [hardware
+details](hardware/). For the Arduino programming and electronics, see the
 [controller details]{.ul}.
 
 ### License 
