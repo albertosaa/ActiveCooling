@@ -63,28 +63,24 @@ and uniform on all sides.
 
 <p align="center">
 <img src="../img/nvidiatest.jpg" alt="Computer case" width="50%" />  <br>
-Fig.6 Test-fit piece mounted on the PC case. Notice the wide and irregular gap between the duct
+Fig.6 Test-fit piece mounted on the PC case. Notice the wide and irregular gap <br> between the duct
 and the nVidia GPU card’s air intake.
 </p>
 
-6. Make the final air duct using the 3D printer. Use an higher filling rate (we used 80%) to prevent
-the supporting flange from being crushed when the mounting screws get tightened up. Use High
-Temperature PLA (also called “Premium PLA”) or similar material, as most regular PLAs soften and
-get deformed at temperatures as low as 50°C.
+6. Make the final air duct using the 3D printer. Use a higher filling rate (we used 80%) to prevent the supporting flange from being crushed when the mounting screws get tightened up. Use High-Temperature PLA (also called “Premium PLA”) or similar material, as most regular PLAs soften and get deformed at temperatures as low as 50°C. The figure below depicts the ducts for our cards. For sake of illustration, we attach the respective 3D Manufacturing Format files (.3mf and .f3d), but of course, the design must be customized for the particular card  and computer case in question.
 
 <p align="center">
-<img src="../img/duct1.jpg" alt="Computer case" width="25%" /> 
-<img src="../img/duct1.jpg" alt="Computer case" width="25%" /> 
+<img src="../img/duct1.jpg" alt="Computer case" width="30%" /> 
+<img src="../img/duct1.jpg" alt="Computer case" width="30%" /> 
 <br>
-Fig.7 Final measurements for the air ducts for the nVidia Tesla V100 GPU (left) and Xilinx Alveo
-U280 FPGA cards (right). The mounting flange (bottom) is particular for the PC case we used. The
-air outlet profile (top) can be used in any design made for these cards.
+Fig.7 Final   air ducts for the nVidia Tesla V100 GPU (left) and Xilinx Alveo
+U280 FPGA cards (right). 
 </p>
 
 ## Assembly Instructions
 
-1. Apply adhesive rubber foam (6mm high by 10mm wide) on the internal wall of the air duct outlet
-to seal the gap between the duct and the high performance board.
+1. Apply adhesive foam (6mm high, 10mm wide) on the internal wall of the air duct outlet
+to seal the gap between the duct and the card.
 
 <p align="center">
 <img src="../img/ass1.jpg" alt="Computer case" width="50%" /> 
@@ -92,17 +88,12 @@ to seal the gap between the duct and the high performance board.
 Fig.8 Final air duct with rubber foam applied.
 </p>
 
-2. Install the cooling fan and the air duct on the PC case’s mounting bracket. If possible, remove the
-fan bracket and detach the GPU (or FPGA) board power cable from the power supply to make the
-assembly easier. Use M4x12mm bolts with narrow (allen) heads to fit on the mounting holes along
-the fan’s body. Use nuts and lock washers to prevent the fan vibration from losing the bolts.
+2. Install the cooler fan and the air duct on the PC case’s traverse bracket.  Use M4x12mm allen bolts, nuts, and lock washers to prevent losing due to the vibration.
 
 <p align="center">
-<img src="../img/ass2.jpg" alt="Computer case" width="50%" /> 
+<img src="../img/ass2.jpg" alt="Computer case" width="70%" /> 
 <br>
-Fig.7 Final measurements for the air ducts for the nVidia Tesla V100 GPU (left) and Xilinx Alveo
-U280 FPGA cards (right). The mounting flange (bottom) is particular for the PC case we used. The
-air outlet profile (top) can be used in any design made for these cards.
+Fig.9 Air duct and fan mounted on the PC case’s bracket.
 </p>
 
 3. Install the cooling assembly in the computer case. Connect the power supply cable on the high
@@ -139,7 +130,7 @@ above 55°C (for the intermediate temperatures, the fan power is linearly increa
 on the Arduino-based fan controller using the settings shown below:
   
 <p align="center">
-<img src="../img/arduinocontrol.png" alt="Computer case" width="50%" /> 
+<img src="../img/arduinocontrol.png" alt="Computer case" width="75%" /> 
 <br>
 
 8. With this setup we saw a maximum GPU temperature of 67°C for a power draw of about 230W (as
@@ -147,6 +138,6 @@ reported by nVidia’s “nvidia-smi” utility) when running gpu-burn for 15 mi
 temperature was 23°C.
   
 <p align="center">
-<img src="../img/burn.png" alt="Computer case" width="50%" /> 
+<img src="../img/burn.png" alt="Computer case" width="75%" /> 
 <br>
   
