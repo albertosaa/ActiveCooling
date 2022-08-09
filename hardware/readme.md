@@ -109,8 +109,8 @@ is in place (along the duct’s side). Use a long screwdriver to set the cable i
 Make sure no cable is in the way of the air flow neither can came in contact with the fan blades.
 
 <p align="center">
-<img src="../img/tesla.jpg" alt="Computer case" width="25%" /> 
-<img src="../img/xl.jpg" alt="Computer case" width="25%" /> 
+<img src="../img/tesla.jpg" alt="Computer case" width="35%" /> 
+<img src="../img/xl.jpg" alt="Computer case" width="35%" /> 
 <br>
 
 6. Install the fan controller and connect the high performance card’s fan to one of its temperature-
@@ -118,8 +118,8 @@ controlled PWM outputs. Install the controller’s temperature sensor on the bac
 board’s hot air outlet. Extend the sensor’s wires if needed.
 
 <p align="center">
-<img src="../img/ass4.jpg" alt="Computer case" width="25%" /> 
-<img src="../img/ass5.jpg" alt="Computer case" width="25%" /> 
+<img src="../img/ass4.jpg" alt="Computer case" width="35%" /> 
+<img src="../img/ass5.jpg" alt="Computer case" width="35%" /> 
 <br>
   
 7. Use some burn-in test program to stress the high performance card (for example, gpu-burn for the
