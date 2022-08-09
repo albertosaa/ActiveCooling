@@ -104,3 +104,16 @@ to seal the gap between the duct and the high performance board.
 <br>
 Fig.8 Final air duct with rubber foam applied.
 </p>
+
+Install the cooling fan and the air duct on the PC case’s mounting bracket. If possible, remove the
+fan bracket and detach the GPU (or FPGA) board power cable from the power supply to make the
+assembly easier. Use M4x12mm bolts with narrow (allen) heads to fit on the mounting holes along
+the fan’s body. Use nuts and lock washers to prevent the fan vibration from losing the bolts.
+
+<p align="center">
+<img src="../img/ass2.jpg" alt="Computer case" width="50%" /> 
+<br>
+Fig.7 Final measurements for the air ducts for the nVidia Tesla V100 GPU (left) and Xilinx Alveo
+U280 FPGA cards (right). The mounting flange (bottom) is particular for the PC case we used. The
+air outlet profile (top) can be used in any design made for these cards.
+</p>
