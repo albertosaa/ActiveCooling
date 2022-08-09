@@ -26,9 +26,16 @@ the 60x60mm cooling fan mounting position (in front of the GPU card).
 
 
 
-2. Attach a cardboard sheet to the fan mounting bracket. Draw the fan opening and mounting holes. Use a long and straight pen to draw reference marks for the upper and side limits of the high performance card’s air intake. Remove the cardboard and complete the card’s intake outline.
+2. With the help of a cardboard sheet, draw the fan opening, mounting holes, and the reference marks for the 
+card’s air intake, see below.
 
-
+<p align="center">
+<img src="../img/draw1.jpg" alt="Computer case" width="25%" /> 
+<img src="../img/draw2.jpg" alt="Computer case" width="25%" /> 
+<br>
+Fig.3 Drawing guide lines (left) and full contour (right) of the GPU air intake on the cardboard.
+template
+</p>
 
 
 
