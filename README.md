@@ -14,37 +14,38 @@ in standard computer cases.
 
 Typically, high-performance Graphics Processing Units (GPU) and Field
 Programmable Gate Arrays (FPGA) accelerators are high-power demanding
-elements, designed to be mounted in specialized racks with intense
+elements, designed to be mounted in specialized, high-cost, racks with intense
 forced airflow systems to assure their functioning within proper thermal
 limits. We present here an open-source, Arduino-based, programmable
 active cooling system for GPU and FPGA cards that allow their
 installation in common computer cases. Only standard components and
 simple 3D-printed pieces are employed in our design. We built and have
 been continuously using this cooling system for a GPU NVIDIA Tesla V100
-and an FPGA Xilinx Alveo U280. The setup is inexpensive and has proved
+and an FPGA Xilinx Alveo U280, both mounted
+in   common PCIe motherboards ASUS PRIME Intel H510M-E, installed in a
+standard rack-mounted computer case, and operating in an air-conditioned datacenter. The setup is inexpensive and has proved
 to be flexible and extremely reliable. Furthermore, it can be easily
 adapted for any other card or element requiring similar cooling.
 
-For the rationale and overall description of the project, see the
+For the rationale and overall description of the project, see the accompanying
 [paper]{.ul}. For the full build instructions, see the [hardware
 details]{.ul}. For the Arduino programming and electronics, see the
 [controller details]{.ul}.
 
 ### License 
 
-The hardware is available under a
-[CERN-OHL-S-2.0](https://spdx.org/licenses/CERN-OHL-S-2.0.html) license,
-available also [here]{.ul}.
+The hardware presented here is freely available under a
+[CERN-OHL-S-2.0](https://spdx.org/licenses/CERN-OHL-S-2.0.html) license, which can be also found [here]{.ul}.
 
-The software and documentation are available under an [MIT
-license](https://opensource.org/licenses/MIT), available also
+The software and documentation are freely available under an [MIT
+license](https://opensource.org/licenses/MIT), which can be also found 
 [here]{.ul}.
 
 ### Contact 
 
 This project was carried out in the Institute of Mathematics,
 Statistics, and Scientific Computing of the University of Campinas, SP,
-Brazil. For questions, please contact the developer Rodolfo Manin
+Brazil. For further questions, please contact the developer Rodolfo Manin
 (<rodolfo@ime.unicamp.br>) or the Principal Investigator Alberto Saa
 (<asaa@ime.unicamp.br>).
 
