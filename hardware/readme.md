@@ -44,7 +44,7 @@ Fig.3 Drawing guide lines (left) and full contour (right) of the GPU air intake 
 template
 </p>
 
-3. Mark the center of each of the duct openings and measure the vertical and horizontal distances between them. Such distances will be very important to align the openings when making the 3D model, as most 3D modeling software (we used Autodesk Fusion 360) have center-referenced primitives (rectangles and circles).
+3. Mark the center of the duct openings and measure the vertical and horizontal distances between them. Such distances will be very important to align the openings when making the 3D model, as most 3D modeling software (we used Autodesk Fusion 360) have center-referenced primitives (rectangles and circles).
 
 <p align="center">
 <img src="../img/draw3.jpg" alt="Computer case" width="25%" /> 
@@ -54,7 +54,7 @@ measurements (“x” and “y”).
 </p>
 
 
-4. By using some 3D modeling software, draw a 4mm thick mounting flange for the air duct inlet (similar to the own mounting structure of the fan). Draw a hollow frame corresponding to the GPU (or FPGA) card’s air intake outline on the same diagram, at a plane offset from the origin given by the distance
+4. By using some 3D modeling software, draw a 4mm thick mounting flange for the air duct inlet (similar to the fan mounting structure). Draw a hollow frame corresponding to the GPU (or FPGA) card’s air intake outline on the same diagram, at a plane with an offset from the origin given by the distance
 between the fan mounting position and the card’s air intake (when installed in the PC case). Make this frame 15 mm high, 2.5 mm thick, and oversized in such a way that allows a gap of at least 5mm between the frame (which will become the duct’s air exit) and the board’s air intake. Refer to the measurements taken in the previous steps to align the two drawings. If possible, use the automatic composing features of the 3D modeling software to draw the air duct’s body between the two ends (we used the “loft” tool on Autodesk Fusion 360. As this tool deals only with a solid object, we used it twice: for the outer and inner duct shells and subtracted the resulting objects to obtain a hollow body).
 
 <p align="center">
@@ -66,24 +66,24 @@ generate the complete smooth structure connecting them (right).
 </p>
 
 5. Make a test-fit part of the complete air duct using a 3D printer. You can use regular PLA and low
-filling (about 10%) for this test. Mount the test-fit part on the PC case and measure the gap between
+filling (about 10%) for this test-fit. Mount the test-fit part on the PC case and measure the gap between
 the duct and the CPU (of FPGA) card. Modify the 3D model in order to make this gap 4mm wide
 and uniform on all sides.
 
 <p align="center">
 <img src="../img/nvidiatest.jpg" alt="Computer case" width="50%" />  <br>
-Fig.6 Test-fit piece mounted on the PC case. Notice the wide and irregular gap <br> between the duct
+Fig.6 Test-fit piece mounted on the PC case. Notice the wide gap <br> between the duct
 and the nVidia GPU card’s air intake.
 </p>
 
-6. Make the final air duct using the 3D printer. Use a higher filling rate (we used 80%) to prevent the supporting flange from being crushed when the mounting screws get tightened up. Use High-Temperature PLA (also called “Premium PLA”) or similar material, as most regular PLAs soften and get deformed at temperatures as low as 50°C. The figure below depicts the ducts for our cards. For sake of illustration, we attach the respective 3D Manufacturing Format files (.3mf and .f3d), but of course, the design must be customized for the particular card  and computer case in question.
+6. Make the final air duct using the 3D printer. Use High-Temperature PLA (also called “Premium PLA”) or similar material, as most regular PLAs soften and get deformed at temperatures as low as 50°C, and a higher filling rate (we used 80%). The figure below depicts the ducts for our cards. For sake of illustration, we attach the respective 3D Manufacturing Format files (.3mf and .f3d), but of course, the design must be customized for the particular card  and computer case in question.
 
 <p align="center">
 <img src="../img/duct1.jpg" alt="Computer case" width="30%" /> 
 <img src="../img/duct1.jpg" alt="Computer case" width="30%" /> 
 <br>
 Fig.7 Final   air ducts for the nVidia Tesla V100 GPU (left) and Xilinx Alveo
-U280 FPGA cards (right). 
+U280 FPGA cards (right) for our computer case.
 </p>
 
 ## Assembly Instructions
