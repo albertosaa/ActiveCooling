@@ -8,6 +8,15 @@ We describe below all steps we have followed to build the cooling system for a G
 
 ## Air duct desgin and construction 
 
+### Requires
+
+* 3D printer
+* High-temperature PLA filament for the final ducts
+* Optional: Regular PLA filament for the test-fit
+* Cardboard sheets 
+
+### Instructions
+
 1. To guarantee mechanical stability and avoid vibrations, the fan must be fixed in the computer case, and never at the card. To this end, it is important to employ a computer case with a transverse bracket for fans like that one depicted below, which corresponds to a locally sourced (Brazil) Nilko NK211 4U rack-mounting PC case.
 
 <p align="center">
