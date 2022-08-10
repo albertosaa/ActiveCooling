@@ -88,6 +88,30 @@ U280 FPGA cards (right) for our computer case.
 
 ## Assembly Instructions
 
+### Requires
+
+* 3D-printed ducts
+* [Arduino-based controller](https://github.com/RodLophus/ArduinoFanController)
+* 60x60x38mm 4-pin cooler fan with pulse width modulation (PWM). Examples: [Sanyo Denki model 9GA0612P1K611](https://products.sanyodenki.com/en/sanace/dc/dc-fan/9GA0612P1K60), [Delta Electronics model PFC0612DE](https://www.delta-fan.com/Download/Spec/PFC0612DE-F00.pdf).
+
+<p align="center">
+<img src="../img/fan.jpg" alt="Fan" width="20%" /> 
+</p>
+
+* Adhesive EPDM foam 6mmx10mm tape.
+
+<p align="center">
+<img src="../img/tape.jpg" alt="Fan" width="20%" /> 
+</p>
+
+* M4x12mm allen bolts with nuts, regular washers and lock washers.
+
+<p align="center">
+<img src="../img/bolts.jpg" alt="Fan" width="20%" /> 
+</p>
+
+### Instructions 
+
 1. Apply adhesive foam (6mm high, 10mm wide) on the internal wall of the air duct outlet
 to seal the gap between the duct and the card.
 
